@@ -8,6 +8,7 @@
 
 ```
 bundle
+bundle binstubs steep
 ```
 
 ## Execute
@@ -15,10 +16,10 @@ bundle
 ### Type check
 
 ```
-bundle exec steep check execute.rb
-bundle exec steep check execute_invalid.rb
-bundle exec steep check average.rb
-bundle exec steep check average_invalid.rb
+bin/steep check execute.rb
+bin/steep check execute_invalid.rb
+bin/steep check average.rb
+bin/steep check average_invalid.rb
 ```
 
 ### Execute Ruby
