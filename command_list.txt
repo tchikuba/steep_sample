@@ -1,0 +1,18 @@
+ruby -v
+bin/steep -v
+vi person.rb
+bin/steep scaffold person.rb
+vi sig/person.rbi
+bin/steep check person.rb
+bin/steep check --dump-all-types person.rb
+bin/steep check -v person.rb
+vi execute.rb
+ruby execute.rb
+bin/steep check execute.rb
+vi execute.rb
+bin/steep check execute.rb
+vi average.rb
+ruby average.rb
+bin/steep check average.rb
+vi average.rb
+bin/steep check average.rb
